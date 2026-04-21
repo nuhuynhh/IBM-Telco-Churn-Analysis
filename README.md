@@ -1,13 +1,13 @@
 # 📊 IBM Telco Customer Churn Analysis
 
-## 📌 Overview
+##  Overview
 This project analyzes customer churn behavior using the IBM Telco dataset. The goal is to identify key factors that influence customer attrition and provide data-driven insights to improve retention strategies.
 
 The analysis focuses on customer demographics, service usage, and account information to uncover patterns associated with churn.
 
 ---
 
-## 🎯 Objectives
+##  Objectives
 - Analyze overall churn rate and customer distribution  
 - Identify key drivers of churn (e.g., contract type, payment method, internet service)  
 - Perform segmentation analysis across customer groups  
@@ -16,7 +16,7 @@ The analysis focuses on customer demographics, service usage, and account inform
 
 ---
 
-## 📂 Dataset
+##  Dataset
 - Source: IBM Telco Customer Churn Dataset (Kaggle)  
 - Size: ~7,000 customers  
 - Features include:
@@ -27,7 +27,7 @@ The analysis focuses on customer demographics, service usage, and account inform
 
 ---
 
-## 🧹 Data Preparation (ETL Pipeline)
+##  Data Preparation (ETL Pipeline)
 A structured ETL workflow was implemented:
 
 - **Extract:** Load raw customer data from CSV  
@@ -41,7 +41,7 @@ A structured ETL workflow was implemented:
 
 ---
 
-## 📊 Exploratory Data Analysis
+##  Exploratory Data Analysis
 
 Key analyses performed:
 - Overall churn rate calculation  
@@ -55,14 +55,14 @@ Key analyses performed:
 
 ---
 
-## 🔍 Key Insights
+##  Key Insights
 
 - Customers with **month-to-month contracts** show significantly higher churn  
 - **Fiber optic users** have the highest churn rate (>40%)  
 - Customers using **electronic check** are more likely to churn  
 - Lack of **additional services** (e.g., online security, tech support) is associated with higher churn  
 
-### 📉 Fiber Optic Churn Analysis
+###  Fiber Optic Churn Analysis
 Further analysis revealed that churn among fiber optic customers is driven by:
 - Customer service issues (support experience)  
 - Competitive pressure (better pricing, speed, and data from competitors)  
@@ -70,7 +70,7 @@ Further analysis revealed that churn among fiber optic customers is driven by:
 
 ---
 
-## 💡 Business Recommendations
+##  Business Recommendations
 
 - Improve customer support experience and response time  
 - Offer competitive pricing and improve internet service performance  
@@ -79,7 +79,7 @@ Further analysis revealed that churn among fiber optic customers is driven by:
 
 ---
 
-## 🧠 Machine Learning (Logistic Regression)
+##  Machine Learning (Logistic Regression)
 
 A logistic regression model was developed to predict customer churn:
 
@@ -98,7 +98,7 @@ A logistic regression model was developed to predict customer churn:
 - Python (pandas, numpy)  
 - Data visualization: seaborn, matplotlib  
 - Machine learning: scikit-learn  
-- Environment: Google Colab / Jupyter Notebook  
+- Environment: Google Colab
 
 ---
 
